@@ -15,6 +15,12 @@ namespace BlazorIdentity.Server.Data
         {
         }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.Entity<ApplicationUser>().Navigation(e => e.SuperHeroes).AutoInclude();
+        }
+
         public DbSet<SuperHero> SuperHeroes => Set<SuperHero>();
 
     }
