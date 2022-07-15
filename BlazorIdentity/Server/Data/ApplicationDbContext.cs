@@ -13,5 +13,8 @@ namespace BlazorIdentity.Server.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+
+        public DbSet<SuperHero> SuperHeroes => Set<SuperHero>();
+
     }
 }
