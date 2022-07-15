@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using BlazorIdentity.Shared;
+using Microsoft.AspNetCore.Identity;
 
 namespace BlazorIdentity.Server.Models
 {

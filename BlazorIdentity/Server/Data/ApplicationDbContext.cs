@@ -1,4 +1,5 @@
 ﻿using BlazorIdentity.Server.Models;
+using BlazorIdentity.Shared;
 using Duende.IdentityServer.EntityFramework.Options;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;

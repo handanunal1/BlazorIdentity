@@ -1,4 +1,4 @@
-﻿namespace BlazorIdentity.Server.Models
+﻿namespace BlazorIdentity.Shared
 {
     public class SuperHero
     {
